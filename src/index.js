@@ -5,8 +5,16 @@ import "./index.scss";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
+import ReactGA from "react-ga";
+ReactGA.initialize("UA-132881589-1");
+
+function logPageView() {
+  ReactGA.set({ page: window.location.pathname });
+  ReactGA.pageview(window.location.pathname);
+}
+
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter onUpdate={logPageView}>
     <App />
   </BrowserRouter>,
   document.getElementById("root")
