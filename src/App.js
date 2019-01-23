@@ -1,14 +1,15 @@
 import React, { Component } from "react";
 import { Route } from "react-router-dom";
 import AppTemplate from "components/base/AppTemplate";
-import { Home, Vet } from "pages";
+import { Home, Pet, Vet } from "pages";
 
 class App extends Component {
   render() {
     return (
       <AppTemplate>
         <Route path="/" component={Home} exact />
-        <Route path="/vet" component={Vet} exact />
+        <Route path="/pet" component={Pet} />
+        <Route path="/vet" component={Vet} />
       </AppTemplate>
     );
   }
