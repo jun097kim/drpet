@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./LandingTemplate.scss";
+import "./HomeTemplate.scss";
 import Footer from "components/base/Footer";
 
 import Logo from "static/images/logo.svg";
 import AppStore from "static/images/app-store.svg";
 import GooglePlay from "static/images/google-play.png";
 
-const LandingTemplate = () => {
+const HomeTemplate = () => {
   return (
-    <div className="LandingTemplate">
+    <div className="HomeTemplate">
       <div className="top">
         <div className="nav">
           <a href="/">
@@ -17,7 +17,9 @@ const LandingTemplate = () => {
           </a>
           <ul>
             <li>PET OWNER</li>
-            <li>VET</li>
+            <li>
+              <Link to="/vet">VET</Link>
+            </li>
           </ul>
         </div>
 
@@ -61,4 +63,4 @@ const LandingTemplate = () => {
   );
 };
 
-export default LandingTemplate;
+export default HomeTemplate;

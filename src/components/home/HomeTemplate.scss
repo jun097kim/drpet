@@ -1,4 +1,4 @@
-.LandingTemplate {
+.HomeTemplate {
   .top {
     background: url("../../static/images/top.svg");
     background-size: cover;
@@ -22,6 +22,11 @@
 
           & + li {
             margin-left: 5rem;
+          }
+
+          a {
+            text-decoration: none;
+            color: inherit;
           }
         }
       }

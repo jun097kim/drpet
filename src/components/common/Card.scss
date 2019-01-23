@@ -1,0 +1,30 @@
+.Card {
+  width: 390px;
+  height: 420px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+  color: #808988;
+  line-height: 1.5;
+
+  & + .Card {
+    margin-left: 3rem;
+  }
+
+  p.title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  &.blue .title {
+    color: #16bac5;
+  }
+  &.yellow .title {
+    color: #fbb13c;
+  }
+  &.red .title {
+    color: #ff715b;
+  }
+}

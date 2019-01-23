@@ -1,0 +1,28 @@
+.SloganSection {
+  background-color: #31394f;
+  text-align: center;
+  .container.content {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    p.title {
+      font-size: 1.6rem;
+      color: #fff;
+      margin-top: 0;
+      margin-bottom: 3rem;
+    }
+
+    a.btn {
+      color: #fff;
+      background-color: #16bac5;
+      padding: 0.7rem 2.5rem;
+      border-radius: 20px;
+      margin-right: 1.5rem;
+      text-decoration: none;
+      display: inline-block;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+    }
+  }
+}
