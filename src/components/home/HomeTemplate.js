@@ -25,13 +25,16 @@ const HomeTemplate = () => {
           </ul>
         </div>
 
-        <div className="slogan">Meet vet the fastest</div>
+        <div class="slogan">
+          Veterinarians <br />
+          On Demand
+        </div>
 
         <div className="action">
           <Link to="/pet" className="btn">
-            MEET VET
+            Learn More
           </Link>
-          <Link to="/vet">If you are vet, click here.</Link>
+          <Link to="/vet">If you are veterinarian, click here.</Link>
         </div>
       </div>
 

@@ -16,11 +16,6 @@ const StatisticSection = () => {
             higher.
           </div>
           <div className="graph">
-            <div className="data-2009">
-              <div />
-              <span className="year">2009</span>
-              $50
-            </div>
             <div className="data-2018">
               <div />
               <span className="year">2018</span>

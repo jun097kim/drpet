@@ -18,8 +18,12 @@ const VetTemplate = () => {
           </a>
           <div className="nav-right">
             <ul>
-              <li>What is Dr.Pet?</li>
-              <li>Why Dr.Pet?</li>
+              <li>
+                <a href="#what">What is Dr.Pet?</a>
+              </li>
+              <li>
+                <a href="#why">Why Dr.Pet?</a>
+              </li>
             </ul>
             <div className="btn">SIGN UP</div>
           </div>

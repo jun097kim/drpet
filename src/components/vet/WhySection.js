@@ -7,7 +7,7 @@ import CommunityIcon from "static/images/community.svg";
 
 const WhySection = () => {
   return (
-    <div className="WhySection">
+    <div className="WhySection" id="why">
       <div className="container content">
         <p className="title">Why Dr.Pet?</p>
         <div className="cards">

@@ -3,7 +3,7 @@ import "./WhatSection.scss";
 
 const WhatSection = () => {
   return (
-    <div className="WhatSection">
+    <div className="WhatSection" id="what">
       <div className="container content">
         <p className="title">What is Dr.Pet?</p>
         <div className="content">

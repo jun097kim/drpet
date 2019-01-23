@@ -1,5 +1,5 @@
 .StatisticSection {
-  background-color: #f1f1f1;
+  background-color: #f1f3f5;
   text-align: center;
 
   .container.content {
@@ -11,6 +11,7 @@
 
     .content {
       display: flex;
+      justify-content: space-between;
 
       .left {
         line-height: 2;
@@ -20,7 +21,7 @@
       }
 
       .graph {
-        width: 350px;
+        width: 300px;
         display: flex;
         justify-content: center;
         align-items: flex-end;
