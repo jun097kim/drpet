@@ -1,0 +1,26 @@
+.VideoSection {
+  background-color: #888888;
+
+  .content {
+    color: #fff;
+    display: flex;
+    align-items: center;
+
+    img {
+      height: 280px;
+      margin-right: 4rem;
+    }
+
+    div {
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.2rem;
+      line-height: 1.8;
+
+      .title {
+        font-size: 1.8rem;
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+      }
+    }
+  }
+}

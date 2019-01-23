@@ -1,0 +1,9 @@
+.PromotionSection {
+  img {
+    height: 150px;
+
+    & + img {
+      margin-left: 2rem;
+    }
+  }
+}

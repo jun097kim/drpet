@@ -1,0 +1,61 @@
+.StatisticSection {
+  background-color: #f1f1f1;
+  text-align: center;
+
+  .container.content {
+    font-size: 1.2rem;
+
+    p.title {
+      margin-bottom: 3rem;
+    }
+
+    .content {
+      display: flex;
+
+      .left {
+        line-height: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .graph {
+        width: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        div + div {
+          margin-left: 4rem;
+        }
+
+        .data-2009,
+        .data-2018 {
+          display: flex;
+          flex-direction: column;
+          font-family: "Montserrat", sans-serif;
+
+          div {
+            width: 45px;
+            background-color: #009ba4;
+            border-radius: 5px;
+            margin-bottom: 0.5rem;
+          }
+
+          .year {
+            font-size: 1rem;
+            margin-bottom: 0.7rem;
+          }
+        }
+
+        .data-2009 div {
+          height: 50px;
+        }
+
+        .data-2018 div {
+          height: 150px;
+        }
+      }
+    }
+  }
+}

@@ -47,12 +47,13 @@
       top: 190px;
       align-items: center;
 
-      .btn {
+      a.btn {
         color: #fff;
         background-color: #003539;
         padding: 0.7rem 3rem;
-        border-radius: 20px;
+        border-radius: 30px;
         margin-right: 1.5rem;
+        text-decoration: none;
       }
 
       a {

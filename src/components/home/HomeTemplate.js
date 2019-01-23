@@ -16,7 +16,9 @@ const HomeTemplate = () => {
             <img src={Logo} alt="logo" />
           </a>
           <ul>
-            <li>PET OWNER</li>
+            <li>
+              <Link to="/pet">PET OWNER</Link>
+            </li>
             <li>
               <Link to="/vet">VET</Link>
             </li>
@@ -26,7 +28,9 @@ const HomeTemplate = () => {
         <div className="slogan">Meet vet the fastest</div>
 
         <div className="action">
-          <div className="btn">MEET VET</div>
+          <Link to="/pet" className="btn">
+            MEET VET
+          </Link>
           <Link to="/vet">If you are vet, click here.</Link>
         </div>
       </div>

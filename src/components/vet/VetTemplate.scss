@@ -1,4 +1,12 @@
 .VetTemplate {
+  .Footer {
+    margin-top: -100px;
+
+    .container {
+      padding-top: 8rem;
+    }
+  }
+
   .top {
     background: url("../../static/images/top-vet.svg");
     background-size: cover;
@@ -34,7 +42,7 @@
           border: 2px solid #fff;
           color: #fff;
           padding: 0.5rem 2rem;
-          border-radius: 20px;
+          border-radius: 30px;
           margin-left: 5rem;
           font-family: "Montserrat", sans-serif;
           cursor: pointer;

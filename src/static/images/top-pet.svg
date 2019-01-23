@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="901px" viewBox="0 0 1440 901" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="79.3476927%" y1="29.0250797%" x2="26.2170356%" y2="94.833311%" id="linearGradient-1">
+            <stop stop-color="#30F5C7" offset="0%"></stop>
+            <stop stop-color="#009BA4" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-2" cx="1164" cy="690.5" rx="1164" ry="690.5"></ellipse>
+        <linearGradient x1="45.852606%" y1="86.2153091%" x2="19.8782485%" y2="35.3638668%" id="linearGradient-4">
+            <stop stop-color="#00BD91" offset="0%"></stop>
+            <stop stop-color="#009BA4" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="workshop_layout">
+            <g id="header" transform="translate(-444.000000, -480.000000)">
+                <g id="Group-5">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Oval" fill="url(#linearGradient-1)" fill-rule="nonzero" xlink:href="#path-2"></use>
+                    <circle id="Oval" fill="url(#linearGradient-4)" fill-rule="nonzero" opacity="0.441917783" mask="url(#mask-3)" cx="1454" cy="882" r="554"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
