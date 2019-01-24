@@ -7,7 +7,7 @@ const GetStartedSection = () => {
   return (
     <div className="GetStartedSection" id="get-started">
       <div className="container content">
-        <p className="title">Get Stated</p>
+        <p className="title">Get Started</p>
         <div className="list">
           <img src={GooglePlayIcon} alt="googleplay" />
           <img src={AppStoreIcon} alt="appstore" />
