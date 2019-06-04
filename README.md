@@ -1,6 +1,6 @@
 # Dr.Pet
 
-Dr.Pet is a vet-to-pet owner online consultation and reporting platform.
+Dr.Pet is a vet-to-pet owner online consultation and reporting platform. Some of the digital prototypes (Home Page, Landing Page for Vet and Pet Owner) have been developed with React.
 
 ## Digital Prototype
 
