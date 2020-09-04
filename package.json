@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-ga": "^2.5.6",
